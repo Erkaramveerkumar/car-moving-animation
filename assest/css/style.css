@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Track Container */
+div{
+  margin-top: 15px;
+}
+.track {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border-bottom: 3px solid black;
+    background-image: url("../images/main-road.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+  /* General Image Styles */
+  .track img {
+    position: absolute;
+    width: 10vw;
+    height: auto;
+    background-image: none;
+    background-color: none;
+    border: none;
+    box-shadow: none;
+    margin-top: 75px;
+    
+}
+  .img_2{
+    margin-left: 20%;
+  }
+  .img_3{
+    margin-left: 40%;
+  }
+  .img_4{
+    margin-left: 60%;
+  }
+  .img_5{
+    margin-left: 80%;
+  }
+  
+  /* Car Image Specific Styles */
+
+  #wheel{
+    animation: wheel 3s linear;
+
+  }
+  @keyframes wheel {
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
+.car-img{
+  position: relative;
+  animation-name: car;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes car {
+from{
+  left: 0%;
+}
+}
+
+#wheel-2{
+  animation: wheel 1s linear;
+
+}
+@keyframes wheel {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.track-2{
+  position: relative;
+  animation-name: track-2;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes track-2 {
+from{
+  left: 0%;
+}
+to{
+  left: 20%;
+}
+}
+
+#wheel-3{
+  animation: wheel 1s linear;
+  animation-delay: 1s;
+
+}
+@keyframes wheel {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.track-3{
+  position: relative;
+  animation-delay: 1s;
+  animation-name: track-3;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes track-3 {
+from{
+  left: 0%;
+}
+to{
+  left: 40%;
+}
+}
+
+#wheel-4{
+  animation: wheel 2s linear;
+  animation-delay: 2s;
+
+}
+@keyframes wheel {
+  100%{
+    transform: rotate(360deg);
+  }
+} 
+.track-4{
+  position: relative;
+  animation-delay: 2s;
+  animation-name: track-4;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes track-4 {
+from{
+  left: 0%;
+}
+to{
+  left: 60%;
+}
+}
+
+#wheel-5{
+  animation: wheel 2s linear;
+  animation-delay: 4s;
+
+}
+@keyframes wheel {
+  100%{
+    transform: rotate(360deg);
+  }
+} 
+.track-5{
+  position: relative;
+  animation-delay: 4s;
+  animation-name: track-5;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes track-5 {
+from{
+  left: 0%;
+}
+to{
+  left: 80%;
+}
+}
